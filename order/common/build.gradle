@@ -1,0 +1,4 @@
+project("common-domain") {
+    bootJar { enabled = false }
+    jar { enabled = false }
+}

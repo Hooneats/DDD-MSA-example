@@ -47,7 +47,7 @@ project('order-service') {
     jar { enabled = false }
 }
 
-project('common-domain') {
+project('common') {
     bootJar { enabled = false }
     jar { enabled = false }
 }
