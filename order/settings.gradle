@@ -1,0 +1,5 @@
+rootProject.name = "order"
+
+include("order-application", "order-container", "order-dataaccess", "order-domain", "order-messaging")
+include("common-domain")
+
