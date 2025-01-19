@@ -42,27 +42,7 @@ subprojects {
     }
 }
 
-project('order-application') {
-    bootJar { enabled = false }
-    jar { enabled = false }
-}
-
-project('order-container') {
-    bootJar { enabled = false }
-    jar { enabled = false }
-}
-
-project('order-dataaccess') {
-    bootJar { enabled = false }
-    jar { enabled = false }
-}
-
-project('order-domain-core') {
-    bootJar { enabled = false }
-    jar { enabled = false }
-}
-
-project('order-messaging') {
+project('order-service') {
     bootJar { enabled = false }
     jar { enabled = false }
 }
