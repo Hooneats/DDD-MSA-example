@@ -57,7 +57,7 @@ project('order-dataaccess') {
     jar { enabled = false }
 }
 
-project('order-domain') {
+project('order-domain-core') {
     bootJar { enabled = false }
     jar { enabled = false }
 }
